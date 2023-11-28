@@ -51,7 +51,7 @@ def setup_session() -> tls_client.Session:
 
 
 def get_data(chain, query) -> None:
-    file_result = f'{cwd}/results/{chain}.csv'
+    file_result = f'{cwd}/{chain}.csv'
 
     file_query = f'{cwd}/files/{query}.json'
 
